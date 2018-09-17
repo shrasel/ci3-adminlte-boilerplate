@@ -18,6 +18,8 @@ class Auth extends CI_Controller {
 		{
 			$this->data['active_user'] = $this->ion_auth->user()->row();
 		}
+
+		$this->data['site'] = $this->_getSettings();
 		
 	}
 
@@ -1003,6 +1005,20 @@ class Auth extends CI_Controller {
 		$view_html = $this->load->view($view, $this->viewdata, $returnhtml);
 
 		if ($returnhtml) return $view_html;//This will return html on 3rd argument being true
+	}
+
+	private function _getSettings()
+	{
+		$this->load->model('setting');
+		$settings = $this->setting->all();
+		
+		if(empty($settings)) return $settings; 
+		
+		foreach($settings as $setting){
+			$data[$setting['key']] = $setting['value'];
+		}
+
+		return $data;
 	}
 
 }
