@@ -151,10 +151,10 @@ class Migration_Install_ion_auth extends CI_Migration {
 			'created_on' => time(),
 			'last_login' => '',
 			'active' => '1',
-			'first_name' => 'Shahjahan',
-			'last_name' => 'Rasel',
+			'first_name' => 'Admin',
+			'last_name' => 'User',
 			'company' => 'kinbenaki.com',
-			'phone' => '+8801711153983',
+			'phone' => '+8801618277377',
 		);
 
 		$this->db->insert('users', $data);
