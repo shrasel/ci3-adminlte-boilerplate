@@ -10,10 +10,10 @@ Installation
 
 To install and run the application properly in your environment all you have to do
 
-1. Create a database.
-2. Copy the database-sample.php file and then rename the file to database.php
-	- set the proper value of the database.php variable
-3. Copy the config-sample.php file and then rename that to config.php
-4. Run the migration and to do that go to your browser and then http://path_to_url/migrate/latest
+1. Clone the repository to your web root
+2. Create a database in your MySql Database
+3. Copy the database-sample.php file and then rename the file to database.php
+4. Copy the config-sample.php file and then rename that to config.php
+5. Run the migration and to do that go to your browser and then http://localhost/migrate/latest
 
 
