@@ -37,6 +37,11 @@
           </div>
 
           <div class="form-group">
+            <?php echo lang('edit_user_email_label', 'email');?> <br />
+            <?php echo form_input($email, '', 'class="form-control"');?>
+          </div>
+
+          <div class="form-group">
             <?php echo lang('edit_user_company_label', 'company');?> <br />
             <?php echo form_input($company, '', 'class="form-control"');?>
           </div>
