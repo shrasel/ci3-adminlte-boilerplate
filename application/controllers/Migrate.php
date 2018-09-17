@@ -8,12 +8,14 @@ class Migrate extends CI_Controller
 		
 		$this->load->library(array('migration'));
 
+		if(!is_cli()) die('Please run the script from command line. php path/to/your/project/ index.php migrate latest');
+
 
 	}
 
 	public function index()
 	{
-		debug('Run migrate script');
+		echo 'Run migrate script';
 	}
 
 	public function latest(){
