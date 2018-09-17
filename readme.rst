@@ -14,6 +14,11 @@ To install and run the application properly in your environment all you have to 
 2. Create a database in your MySql Database
 3. Copy the database-sample.php file and then rename the file to database.php
 4. Copy the config-sample.php file and then rename that to config.php
-5. Run the migration and to do that go to your browser and then http://localhost/migrate/latest
+5. Run the migration from the command line. Run following command from your project directory
+	- your/project/folder index.php migrate latest
+
+6. After migration you are ready to log in. Go to your project url from browser and use the following credentials to login.
+	> username: info@nextgen-soft.com
+	> password: password
 
 
