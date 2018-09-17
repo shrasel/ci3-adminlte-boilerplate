@@ -1,0 +1,75 @@
+.table>tbody>tr.delay>td, .table>tbody>tr.delay>th, .table>tbody>tr>td.delay, .table>tbody>tr>th.delay, .table>tfoot>tr.delay>td, .table>tfoot>tr.delay>th, .table>tfoot>tr>td.delay, .table>tfoot>tr>th.delay, .table>thead>tr.delay>td, .table>thead>tr.delay>th, .table>thead>tr>td.delay, .table>thead>tr>th.delay {
+	background-color: #e5d8f3;
+}
+.label-delay {
+    background-color: #8327d4;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-15{
+    padding: 15px;
+}.padding-20{
+    padding: 20px;
+}.padding-25{
+    padding: 25px;
+}
+.presonal-inform {
+    margin-top: 25px;
+}
+.presonal-inform ul li {
+    width: 50%;
+    float: left;
+}
+.presonal-inform li b {
+    width: 108px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #1f2124;
+    font-size: 15px;
+    font-weight: 500;
+    color: #888;
+}
+.presonal-inform li {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.about-text {
+    line-height: 55px;
+    margin-top: 26px;
+}
+.detail-text {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+}
+.presonal-inform ul li {
+    width: 50%;
+    float: left;
+    color: #00bcd2;
+}
+.profile-border {
+    width: 10%;
+    height: 3px;
+    margin: 10px auto 15px;
+    background-color: #00bcd2;
+}
+@media (max-width: 768px){
+	.presonal-inform ul li {
+    	width: 100%;
+	}
+}
+.dropzone{
+    min-height: 100px;
+    border: 1px solid #d2d6de;
+}
+.required:before{
+   color: red;
+   content: "*";
+   position: absolute;
+   margin-left: -13px;
+   margin-top: -5px;
+   font-size: 18px
+}

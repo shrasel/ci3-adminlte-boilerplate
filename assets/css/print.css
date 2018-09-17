@@ -1,0 +1,57 @@
+body, table {
+	font-size: 12px;
+  font-family: 'Source Sans Pro',sans-serif;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table {
+    border-collapse: collapse !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 2px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.invoice{
+	margin: 2px
+}
+
+.text-right{
+  text-align: right
+}
+.text-center{
+  text-align: center;
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+	padding: 1px 3px;
+}
+
+.table .table-no-padding > td,
+.table .table-no-padding > th {
+    padding: 0;
+}
+
+
+.table-borderless td,
+.table-borderless th {
+    border: 0 !important;
+}
